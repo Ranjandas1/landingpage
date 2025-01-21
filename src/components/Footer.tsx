@@ -159,7 +159,6 @@ const Footer = () => {
           <p className="text-sm text-gray-400 mt-10">
             © Techindeck 2025. All rights reserved.
           </p>
-          zzzzz
         </div>
       </div>
     </footer>
