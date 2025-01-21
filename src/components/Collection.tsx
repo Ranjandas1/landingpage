@@ -30,8 +30,8 @@ export default function Collection() {
           Browse by Collection
         </p>
         <p className="mt-2 text-base text-gray-500">
-          Each season, we collaborate with world-class designers to create a
-          collection inspired by the natural world.
+          Discover artifacts, paintings, and specimens from our curated
+          collections.
         </p>
         <div>
           <div className="mt-10 grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3 gap-x-6">
