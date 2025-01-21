@@ -11,20 +11,15 @@ import TopBar from "./components/TopBar";
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState("home");
 
-  const handleNavigation = (page: string) => {
-    setCurrentPage(page);
+  const handleNavigation = () => {
     setIsSidebarOpen(false);
   };
   return (
     <>
       <div className="min-h-screen">
         <TopBar />
-        <NavBar
-          onOpenSidebar={() => setIsSidebarOpen(true)}
-          onNavigate={handleNavigation}
-        />
+        <NavBar onOpenSidebar={() => setIsSidebarOpen(true)} />
         <SideBar
           isOpen={isSidebarOpen}
           onClose={() => setIsSidebarOpen(false)}

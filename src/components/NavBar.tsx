@@ -1,13 +1,11 @@
-import React from "react";
 import { Search, HelpCircle, AlignLeft, UserRound } from "lucide-react";
 import Logo from "../assets/logo.png";
 
 type NavigationProps = {
   onOpenSidebar: () => void;
-  onNavigate: (page: string) => void;
 };
 
-export function NavBar({ onOpenSidebar, onNavigate }: NavigationProps) {
+export function NavBar({ onOpenSidebar }: NavigationProps) {
   return (
     <nav className="bg-[#414143] backdrop-blur-sm text-white py-4 px-4 sticky top-0 z-50">
       <div className="container mx-auto ">
@@ -22,30 +20,10 @@ export function NavBar({ onOpenSidebar, onNavigate }: NavigationProps) {
 
           {/* Middle Section */}
           <div className="hidden lg:flex space-x-8 flex-1 justify-center">
-            <button
-              onClick={() => onNavigate("Collection")}
-              className="hover:text-gray-300"
-            >
-              Collection
-            </button>
-            <button
-              onClick={() => onNavigate("Category")}
-              className="hover:text-gray-300"
-            >
-              Category
-            </button>
-            <button
-              onClick={() => onNavigate("company")}
-              className="hover:text-gray-300"
-            >
-              Company
-            </button>
-            <button
-              onClick={() => onNavigate("stores")}
-              className="hover:text-gray-300"
-            >
-              Stores
-            </button>
+            <button className="hover:text-gray-300">Collection</button>
+            <button className="hover:text-gray-300">Category</button>
+            <button className="hover:text-gray-300">Company</button>
+            <button className="hover:text-gray-300">Stores</button>
           </div>
 
           {/* Right Section */}

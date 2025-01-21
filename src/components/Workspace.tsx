@@ -1,4 +1,3 @@
-import React from "react";
 import workspace from "../assets/workspace.jpg";
 
 export function Workspace() {
