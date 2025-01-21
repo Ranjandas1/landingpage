@@ -1,24 +1,24 @@
 const collections = [
   {
-    title: "Handcrafted Collection",
+    title: "Timeless Treasures: The Ancient World",
     description:
-      "Keep your phone, keys, and wallet together, so you can lose everything at once.",
+      "Unearth artifacts from ancient civilizations, including tools, pottery, and sculptures that illuminate the daily lives and spiritual beliefs of our ancestors.",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-collection-01.jpg",
+      "https://images.stockcake.com/public/f/0/3/f031ffc4-063b-4301-89d7-c9c27d406e0d_large/ancient-artifacts-displayed-stockcake.jpg",
   },
   {
-    title: "Organized Desk Collection",
+    title: "Masters of the Canvas: The Art of the Ages",
     description:
-      "The rest of the house will still be a mess, but your desk will look great.",
+      "Explore a stunning gallery of paintings and drawings from classical to contemporary masters, showcasing the evolution of artistic expression through the centuries.",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-collection-02.jpg",
+      "https://www.sophieploeg.com/wp-content/uploads/2016/05/queensgallery-2.jpg",
   },
   {
-    title: "Focus Collection",
+    title: "Nature’s Masterpieces: The Natural History Collection",
     description:
-      "Be more productive than enterprise project managers with a single piece of paper.",
+      "Marvel at fossils, gemstones, and preserved specimens that tell the story of Earth’s evolution and its diverse ecosystems..",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-collection-03.jpg",
+      "https://th-thumbnailer.cdn-si-edu.com/trgQ6zvE1jRDtkGIMUS3EGDjQYA=/1000x750/filters:no_upscale():focal(800x533:801x534)/https%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler_public%2Fbc%2Fb1%2Fbcb114e8-0659-4b09-80ac-a6ee05f5b1e9%2Fcollections_iz_credit_chip_clark_smithsonian_institution_1.jpg",
   },
 ];
 
@@ -40,7 +40,7 @@ export default function Collection() {
                 <img
                   alt={collection.title}
                   src={collection.image}
-                  className="aspect-w-4 aspect-h-3 w-full rounded-lg object-cover group-hover:opacity-75"
+                  className="aspect-w-4 aspect-h-3 h-[30rem] w-full rounded-lg object-cover group-hover:opacity-75"
                 />
                 <p className="mt-4 text-lg font-medium text-gray-900">
                   {collection.title}

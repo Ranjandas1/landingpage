@@ -39,7 +39,7 @@ export default function TopBar() {
         </div>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="text-sm/6 text-gray-900">
-            <strong className="font-semibold">GeneriCon 2023</strong>
+            <strong className="font-semibold">Museum</strong>
             <svg
               viewBox="0 0 2 2"
               aria-hidden="true"
@@ -47,7 +47,7 @@ export default function TopBar() {
             >
               <circle cx={1} cy={1} r={1} />
             </svg>
-            Join us in Denver from June 7 – 9 to see what's coming next.
+            loream ipsum dolor sit amet adipiscing elit.
           </p>
           <a
             href="#"

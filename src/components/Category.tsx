@@ -2,29 +2,28 @@ import { ArrowRight } from "lucide-react";
 
 const categories = [
   {
-    title: "New Arrivals",
+    title: "Photography",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-category-01.jpg",
+      "https://content3.jdmagicbox.com/v2/comp/bangalore/p4/080pxx80.xx80.191112210907.h8p4/catalogue/museum-of-art-and-photography-shanthala-nagar-bangalore-museums-in1tr8mvnb.jpg",
   },
   {
-    title: "Productivity",
+    title: "Pre-Mordern Art",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-category-02.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQr8zg-3SIn-EFBlgHqgED8YTzo1bd9CwjvA&s",
   },
   {
-    title: "Workspace",
+    title: "Propular Culture",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-category-04.jpg",
+      "https://cdn.artandobject.com/sites/default/files/styles/slideshow_image/public/petrus-christus-goldsmith-his-shop-1449-oil-oak-panel.jpg?itok=yJMLUCKG",
   },
   {
-    title: "Accessories",
-    image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-category-05.jpg",
+    title: "Texttile,crafts",
+    image: "https://www.mashindia.com/wp-content/uploads/2024/08/5.jpg",
   },
   {
-    title: "Sale",
+    title: "Living Traditions",
     image:
-      "https://tailwindui.com/plus/img/ecommerce-images/home-page-01-category-03.jpg",
+      "https://www.mapinpub.com/cdn/shop/products/LivingTraditionsinIndianArt01_1024x.jpg?v=1664279116",
   },
 ];
 
@@ -48,15 +47,15 @@ export function Category() {
 
         {/* Category Cards Container */}
         <div className="relative">
-          <div className="overflow-x-auto flex justify-between space-x-6 pb-4">
+          <div className="overflow-x-auto flex justify-between space-x-6 pb-4 ">
             {categories.map((category, index) => (
-              <a key={index} href="#" className="group block text-center">
+              <a key={index} href="#" className="group block text-center ">
                 {/* Image Wrapper */}
                 <div className="relative w-64 overflow-hidden rounded-lg">
                   <img
                     src={category.image}
                     alt={category.title}
-                    className="h-full w-full object-cover object-center group-hover:opacity-60"
+                    className="h-96 w-full object-cover object-center group-hover:opacity-60"
                   />
                   {/* Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-gray-900/30 to-gray-900/0" />

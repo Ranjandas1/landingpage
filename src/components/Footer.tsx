@@ -8,16 +8,16 @@ const Footer = () => {
             <div className="w-full lg:w-1/3 flex flex-col sm:flex-row gap-8">
               <div className="w-full sm:w-1/2 space-y-5">
                 {/* Shop Section */}
-                <h3 className="text-white text-lg font-medium">Shop</h3>
+                <h3 className="text-white text-lg font-medium">Meseum</h3>
                 <ul className="space-y-5">
                   <li>
                     <a href="#" className="hover:text-white transition">
-                      Bags
+                      Plan Your Visit
                     </a>
                   </li>
                   <li>
                     <a href="#" className="hover:text-white transition">
-                      Tees
+                      Browse Exhibitions
                     </a>
                   </li>
                   <li>
@@ -27,12 +27,12 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="#" className="hover:text-white transition">
-                      Home Goods
+                      Become a Member
                     </a>
                   </li>
                   <li>
                     <a href="#" className="hover:text-white transition">
-                      Accessories
+                      Accessibility Services
                     </a>
                   </li>
                 </ul>

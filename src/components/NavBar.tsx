@@ -22,8 +22,8 @@ export function NavBar({ onOpenSidebar }: NavigationProps) {
           <div className="hidden lg:flex space-x-8 flex-1 justify-center">
             <button className="hover:text-gray-300">Collection</button>
             <button className="hover:text-gray-300">Category</button>
-            <button className="hover:text-gray-300">Company</button>
-            <button className="hover:text-gray-300">Stores</button>
+            <button className="hover:text-gray-300">Visit</button>
+            <button className="hover:text-gray-300">About us</button>
           </div>
 
           {/* Right Section */}
